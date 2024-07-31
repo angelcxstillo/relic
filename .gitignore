@@ -1,0 +1,7 @@
+node_modules
+.vscode
+.upm
+package-lock.json
+.elsconfig
+browser/browser.js
+browser/dist

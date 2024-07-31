@@ -1,0 +1,14 @@
+#: Augmented classes. 
+#: Automatic constructors.
+#: name -> Also easy documented parameters.
+class Player with name:: string
+  highscore:: number   as 0
+  activity::  number[] as []
+
+  #: Set highscore if points are higher
+  score points:: number
+    if points > .highscore
+      .highscore = points
+
+    push points in .activity
+    print '{.name} scored +{points}!'

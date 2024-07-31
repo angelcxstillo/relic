@@ -1,0 +1,12 @@
+import ./Player.rc
+
+#--------
+
+names:: string[] as \Lucian \Sarah \Perry
+
+players:: PlayerSet =
+  for playerName:: string of names
+    playerName, new Player playerName
+  into Object.fromEntries
+
+type PlayerSet = [key:: string]: Player

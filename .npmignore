@@ -1,0 +1,7 @@
+browser
+node_modules
+.vscode
+.upm
+package-lock.json
+test
+.elsconfig

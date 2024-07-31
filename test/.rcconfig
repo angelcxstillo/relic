@@ -1,0 +1,14 @@
+sourceRoot: \src
+files:
+  \test
+compilerOptions:
+  outDir: \dist
+  sourceMaps: yes
+  inlineMap: yes
+  # TS Configuration
+  declaration: yes  # - whether to add .d.ts generated declarations or not
+  # file formatting
+  preserveTS: yes
+  outputTabSize: 4
+  cout: \console
+  debugMS: yes
